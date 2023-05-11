@@ -1,0 +1,247 @@
+<mxfile host="Electron" modified="2023-05-11T02:22:03.950Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="Y_Cl8idvM5B5QhPz8tve" version="21.1.2" type="device" pages="2">
+  <diagram id="dMWZvBeyB1IlHtsUsXym" name="用例图">
+    <mxGraphModel dx="1870" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="#F4F1DE" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="10" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="2" value="发票信息下发" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="6" target="2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="票易通" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="125" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="10" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="物流信息下发" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="695" y="115" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="15" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="16" target="13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="票易通" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="125" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-16" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="370" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-17" value="客商信息创建" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="475" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-18" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="DAiYbC7BDkp9dD553wR8-20" target="DAiYbC7BDkp9dD553wR8-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-20" value="开思业务系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="485" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-23" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="370" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-24" value="客商信息修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="695" y="475" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-25" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-26" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="DAiYbC7BDkp9dD553wR8-27" target="DAiYbC7BDkp9dD553wR8-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DAiYbC7BDkp9dD553wR8-27" value="开思业务系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="485" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-17" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="705" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-18" value="物流收件&lt;br&gt;信息新增" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-19" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-20" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="gk9RDhAe_utsdJB72tOk-21" target="gk9RDhAe_utsdJB72tOk-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-21" value="开思业务系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-22" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="705" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-23" value="物流收件&lt;br&gt;信息修改" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="695" y="810" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-24" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-25" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="gk9RDhAe_utsdJB72tOk-26" target="gk9RDhAe_utsdJB72tOk-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gk9RDhAe_utsdJB72tOk-26" value="开思业务系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="820" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2Q3Jjph_4IblTowcRd-16" value="" style="whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="1040" width="250" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2Q3Jjph_4IblTowcRd-17" value="物流收件&lt;br&gt;轨迹查询" style="ellipse;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="265" y="1145" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2Q3Jjph_4IblTowcRd-18" value="票税中台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="210" y="1050" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2Q3Jjph_4IblTowcRd-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#E07A5F;fontColor=#393C56;labelBackgroundColor=#F4F1DE;" parent="1" source="-P2Q3Jjph_4IblTowcRd-20" target="-P2Q3Jjph_4IblTowcRd-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-P2Q3Jjph_4IblTowcRd-20" value="开思业务系统" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="1155" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gkzgLSNdbZU6Xv_xWxcU" name="业务流程图">
+    <mxGraphModel dx="1870" dy="967" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-1" value="客商信息" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="670" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-2" value="业务系统" style="swimlane;startSize=20;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-1" vertex="1">
+          <mxGeometry y="20" width="230" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-2" source="qVlfFYYLNlWTU9VFq-ge-7" target="qVlfFYYLNlWTU9VFq-ge-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-7" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-2" vertex="1">
+          <mxGeometry x="54.999999999999545" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-8" value="客商信息填写" style="rounded=0;whiteSpace=wrap;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-2" vertex="1">
+          <mxGeometry x="54.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-3" value="票税服务" style="swimlane;startSize=20;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-1" vertex="1">
+          <mxGeometry x="230" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="qVlfFYYLNlWTU9VFq-ge-3" source="qVlfFYYLNlWTU9VFq-ge-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="qVlfFYYLNlWTU9VFq-ge-3" source="qVlfFYYLNlWTU9VFq-ge-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="qVlfFYYLNlWTU9VFq-ge-3" source="qVlfFYYLNlWTU9VFq-ge-10" target="d65mExVsu00dWosArqFU-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-10" value="数据校验&lt;br&gt;适配票易通" style="rounded=0;whiteSpace=wrap;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-3" vertex="1">
+          <mxGeometry x="44.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-6" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="qVlfFYYLNlWTU9VFq-ge-3" vertex="1">
+          <mxGeometry x="75" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-4" value="票易通" style="swimlane;startSize=20;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-1" vertex="1">
+          <mxGeometry x="450" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-11" value="开票系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-4" vertex="1">
+          <mxGeometry x="49.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="qVlfFYYLNlWTU9VFq-ge-1" source="qVlfFYYLNlWTU9VFq-ge-8" target="qVlfFYYLNlWTU9VFq-ge-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qVlfFYYLNlWTU9VFq-ge-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="qVlfFYYLNlWTU9VFq-ge-1" source="qVlfFYYLNlWTU9VFq-ge-10" target="qVlfFYYLNlWTU9VFq-ge-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;dashed=1;" parent="qVlfFYYLNlWTU9VFq-ge-1" source="qVlfFYYLNlWTU9VFq-ge-11" target="qVlfFYYLNlWTU9VFq-ge-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-1" value="发票收件信息" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="370" width="670" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-2" value="业务系统" style="swimlane;startSize=20;html=1;" parent="5iINdcn0qVkbFbW-n-X_-1" vertex="1">
+          <mxGeometry y="20" width="230" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5iINdcn0qVkbFbW-n-X_-2" source="5iINdcn0qVkbFbW-n-X_-4" target="5iINdcn0qVkbFbW-n-X_-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-4" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="5iINdcn0qVkbFbW-n-X_-2" vertex="1">
+          <mxGeometry x="54.999999999999545" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-5" value="&lt;span style=&quot;color: #172b4d;&quot;&gt;发票收件&lt;br&gt;地址&lt;/span&gt;填写" style="rounded=0;whiteSpace=wrap;html=1;" parent="5iINdcn0qVkbFbW-n-X_-2" vertex="1">
+          <mxGeometry x="54.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-6" value="票税服务" style="swimlane;startSize=20;html=1;" parent="5iINdcn0qVkbFbW-n-X_-1" vertex="1">
+          <mxGeometry x="230" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" parent="5iINdcn0qVkbFbW-n-X_-6" source="5iINdcn0qVkbFbW-n-X_-7" target="d65mExVsu00dWosArqFU-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-7" value="数据校验&lt;br&gt;适配票易通" style="rounded=0;whiteSpace=wrap;html=1;" parent="5iINdcn0qVkbFbW-n-X_-6" vertex="1">
+          <mxGeometry x="44.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d65mExVsu00dWosArqFU-8" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="5iINdcn0qVkbFbW-n-X_-6" vertex="1">
+          <mxGeometry x="75" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-8" value="票易通" style="swimlane;startSize=20;html=1;" parent="5iINdcn0qVkbFbW-n-X_-1" vertex="1">
+          <mxGeometry x="450" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-9" value="开票系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="5iINdcn0qVkbFbW-n-X_-8" vertex="1">
+          <mxGeometry x="49.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="5iINdcn0qVkbFbW-n-X_-1" source="5iINdcn0qVkbFbW-n-X_-5" target="5iINdcn0qVkbFbW-n-X_-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5iINdcn0qVkbFbW-n-X_-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="5iINdcn0qVkbFbW-n-X_-1" source="5iINdcn0qVkbFbW-n-X_-7" target="5iINdcn0qVkbFbW-n-X_-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-2" value="发票收件信息" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="720" width="670" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-3" value="业务系统" style="swimlane;startSize=20;html=1;" parent="fb9gdEAOcBXFzYLAYt56-2" vertex="1">
+          <mxGeometry y="20" width="230" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="fb9gdEAOcBXFzYLAYt56-3" source="fb9gdEAOcBXFzYLAYt56-5" target="fb9gdEAOcBXFzYLAYt56-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-5" value="开始" style="ellipse;whiteSpace=wrap;html=1;" parent="fb9gdEAOcBXFzYLAYt56-3" vertex="1">
+          <mxGeometry x="54.999999999999545" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-6" value="&lt;font color=&quot;#172b4d&quot;&gt;查看发票信息&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="fb9gdEAOcBXFzYLAYt56-3" vertex="1">
+          <mxGeometry x="54.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-7" value="票税服务" style="swimlane;startSize=20;html=1;" parent="fb9gdEAOcBXFzYLAYt56-2" vertex="1">
+          <mxGeometry x="230" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-8" value="查看物流轨迹" style="rounded=0;whiteSpace=wrap;html=1;" parent="fb9gdEAOcBXFzYLAYt56-7" vertex="1">
+          <mxGeometry x="44.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-9" value="票易通" style="swimlane;startSize=20;html=1;" parent="fb9gdEAOcBXFzYLAYt56-2" vertex="1">
+          <mxGeometry x="450" y="20" width="220" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-10" value="开票系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="fb9gdEAOcBXFzYLAYt56-9" vertex="1">
+          <mxGeometry x="49.999999999999545" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="fb9gdEAOcBXFzYLAYt56-2" source="fb9gdEAOcBXFzYLAYt56-6" target="fb9gdEAOcBXFzYLAYt56-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fb9gdEAOcBXFzYLAYt56-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="fb9gdEAOcBXFzYLAYt56-2" source="fb9gdEAOcBXFzYLAYt56-8" target="fb9gdEAOcBXFzYLAYt56-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
