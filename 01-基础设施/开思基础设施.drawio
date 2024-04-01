@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-12-16T01:27:06.953Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="IQ4Woir1F73V8ufZPAsi" version="22.1.2" type="device" pages="9">
+<mxfile host="Electron" modified="2024-04-01T08:15:15.260Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="zp7DN-nZx92ZO4kM-a8X" version="22.1.2" type="device" pages="10">
   <diagram name="分流服务" id="yO_mzn8Q3GnJgCmKlfW9">
     <mxGraphModel dx="2670" dy="967" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -903,8 +903,8 @@
             <mxPoint x="582.25" y="-447.96000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qQ8qcJ-ACZg2sewlPFVm-159" value="client_id=ca403&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;appid=ca403&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;state=&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;redirect_uri=https://passport.casstime.com/sso/login&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;response_type=code&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=17;" parent="1" vertex="1">
-          <mxGeometry x="-51" y="-854" width="319" height="75" as="geometry" />
+        <mxCell id="qQ8qcJ-ACZg2sewlPFVm-159" value="client_id=ca403&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;appid=ca403&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;state=&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;redirect_uri=https://passport.casstime.com/sso/login&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;response_type=code&lt;br&gt;scope=openid+profile+email+offline_access&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=17;" parent="1" vertex="1">
+          <mxGeometry x="-52" y="-858" width="319" height="84" as="geometry" />
         </mxCell>
         <mxCell id="qQ8qcJ-ACZg2sewlPFVm-160" value="登&lt;br&gt;录" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="-290" y="-1000" width="48" height="69" as="geometry" />
@@ -1049,6 +1049,185 @@
         </mxCell>
         <mxCell id="ufUTpRBgfbARwT7Eqi_j-1" value="调用了icec-token-service&lt;br&gt;代为获取用户信息并生成jwt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=14;" parent="1" vertex="1">
           <mxGeometry x="-38" y="-40" width="171" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="集团用户登录" id="CTu2nSZDR1HNZDpinFco">
+    <mxGraphModel dx="2286" dy="2583" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-0" />
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-1" parent="NurGLHKg4Gj_iAIYEmeX-0" />
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="-268" y="-895" width="582" height="132" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-64" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="-292" y="-1219" width="115" height="775" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-65" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-64">
+          <mxGeometry x="52.5" y="86" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-66" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-64">
+          <mxGeometry x="52.5" y="237" width="10" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-64">
+          <mxGeometry x="52.5" y="471" width="10" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-6" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-64">
+          <mxGeometry x="51" y="630" width="10" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-71" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-64">
+          <mxGeometry x="52.5" y="357" width="10" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-45" value="passport&lt;br&gt;(https://passport.casstime.com)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;size=44;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="376.25" y="-1219" width="392.25" height="762" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-45">
+          <mxGeometry x="37.75" y="627" width="302" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-3" value="持久化到&lt;br&gt;Redis" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-45">
+          <mxGeometry x="182.75" y="633.62" width="81" height="40.75" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-4" value="/passport/chooseidentity" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-45">
+          <mxGeometry x="72.25" y="644" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-5" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-45" source="yO9RL8v-J-UYCbYf3E_q-4" target="yO9RL8v-J-UYCbYf3E_q-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-75" value="web-user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="840" y="-1222" width="245" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="EVTwQlYb_f6WeHRyBspy-1" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-75">
+          <mxGeometry x="117.5" y="231" width="10" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-49" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-75">
+          <mxGeometry x="-57" y="457" width="302" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-52" value="持久化到&lt;br&gt;user-service" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-75">
+          <mxGeometry x="88" y="463.62" width="81" height="40.75" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-79" value="https://ec-alpha.casstime.com" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-65" target="NurGLHKg4Gj_iAIYEmeX-73">
+          <mxGeometry x="0.0015" width="80" relative="1" as="geometry">
+            <mxPoint x="-232" y="-1119" as="sourcePoint" />
+            <mxPoint x="-152" y="-1119" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-99" y="-1118" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-80" value="302 https://ec-alpha.casstime.com/personnel/user/index" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-73" target="NurGLHKg4Gj_iAIYEmeX-65">
+          <mxGeometry x="0.0195" y="21" relative="1" as="geometry">
+            <mxPoint x="-48" y="-944" as="sourcePoint" />
+            <mxPoint x="-128" y="-944" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-104" y="-1072" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-85" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;exitX=0.95;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-66" target="EVTwQlYb_f6WeHRyBspy-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-223" y="-971" as="sourcePoint" />
+            <mxPoint x="119" y="-971" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-86" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;/div&gt;redirect&amp;nbsp;https://ec-alpha.casstime.com/personnel/user/index" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="NurGLHKg4Gj_iAIYEmeX-85">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="80" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-100" value="点击&quot;同意并继续&quot;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-67" target="NurGLHKg4Gj_iAIYEmeX-50">
+          <mxGeometry x="-0.7009" y="3" width="80" relative="1" as="geometry">
+            <mxPoint x="-215" y="-339" as="sourcePoint" />
+            <mxPoint x="-135" y="-339" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-101" value="http 200&amp;nbsp;&amp;nbsp;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;&quot;code&quot;: 200&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;}&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-49" target="NurGLHKg4Gj_iAIYEmeX-67">
+          <mxGeometry x="0.6924" y="22" relative="1" as="geometry">
+            <mxPoint x="366.7399999999998" y="-285.42" as="sourcePoint" />
+            <mxPoint x="-223" y="-285.42" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-115" value="条款引介 html 页" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="EVTwQlYb_f6WeHRyBspy-1" target="NurGLHKg4Gj_iAIYEmeX-66">
+          <mxGeometry x="0.7364" y="-6" relative="1" as="geometry">
+            <mxPoint x="881" y="-910" as="sourcePoint" />
+            <mxPoint x="-170" y="-791" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-72" value="webagent&lt;br style=&quot;font-size: 16px;&quot;&gt;(https://ec-alpha.casstime.com)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="-13" y="-1219" width="374" height="772" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-73" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-72">
+          <mxGeometry x="182" y="81" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EVTwQlYb_f6WeHRyBspy-2" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-72">
+          <mxGeometry x="182" y="231" width="10" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-76" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-72">
+          <mxGeometry x="182" y="357" width="10" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-116" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" target="NurGLHKg4Gj_iAIYEmeX-76" source="NurGLHKg4Gj_iAIYEmeX-71">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-222.24" y="-757" as="sourcePoint" />
+            <mxPoint x="445.76" y="-757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-117" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;/div&gt;点击&quot;同意并继续&quot;&lt;br&gt;POST&amp;nbsp;https://ec-alpha.casstime.com/personnel/introduction/terms?platform=CASSTIME" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="NurGLHKg4Gj_iAIYEmeX-116">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="160" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVTwQlYb_f6WeHRyBspy-0" value="场景：用户登录后，进入商城首页" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="-296" y="-1296" width="337" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="EVTwQlYb_f6WeHRyBspy-3" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="EVTwQlYb_f6WeHRyBspy-2" target="EVTwQlYb_f6WeHRyBspy-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-211" y="-968" as="sourcePoint" />
+            <mxPoint x="130" y="-968" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVTwQlYb_f6WeHRyBspy-4" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="EVTwQlYb_f6WeHRyBspy-3">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="63" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-0" value="转发" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Courier New;" vertex="1" connectable="0" parent="EVTwQlYb_f6WeHRyBspy-3">
+          <mxGeometry x="-0.0376" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-1" value="302&amp;nbsp;https://ec-alpha.casstime.com/passport/chooseidentity" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-76">
+          <mxGeometry x="-0.0414" y="-4" relative="1" as="geometry">
+            <mxPoint x="885" y="-810" as="sourcePoint" />
+            <mxPoint x="-226" y="-810" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-50" value="/personnel/introduction/terms" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="NurGLHKg4Gj_iAIYEmeX-1">
+          <mxGeometry x="817.5" y="-748" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="NurGLHKg4Gj_iAIYEmeX-53" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="NurGLHKg4Gj_iAIYEmeX-50" target="NurGLHKg4Gj_iAIYEmeX-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-7" value="GET https://ec-alpha.casstime.com/passport/chooseidentity?companyId=18008" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" target="yO9RL8v-J-UYCbYf3E_q-2">
+          <mxGeometry x="-0.2555" y="4" width="80" relative="1" as="geometry">
+            <mxPoint x="-228" y="-580" as="sourcePoint" />
+            <mxPoint x="811" y="-580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yO9RL8v-J-UYCbYf3E_q-8" value="302&amp;nbsp;&lt;span style=&quot;color: rgb(31, 31, 31); font-family: &amp;quot;Segoe UI&amp;quot;, tahoma, sans-serif; text-align: start;&quot;&gt;https://ec-alpha.casstime.com/raw/__webagent_callback_?refresh=true&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" parent="NurGLHKg4Gj_iAIYEmeX-1" source="yO9RL8v-J-UYCbYf3E_q-2">
+          <mxGeometry x="0.3418" y="20" relative="1" as="geometry">
+            <mxPoint x="776.5" y="-531" as="sourcePoint" />
+            <mxPoint x="-227.5" y="-531" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
@@ -1236,7 +1415,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rJBOWpGtjeJxB0h2B9vU" name="导图专用">
-    <mxGraphModel dx="2270" dy="2567" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="2583" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1644,6 +1823,413 @@
             <mxPoint x="-2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-1" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;dashed=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-1000" width="1524" height="394" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-2" value="client_id=bosch-nt&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;state=&lt;/span&gt;&amp;lt;&amp;lt;webagent-state&amp;gt;&amp;gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;redirect_uri=&lt;/span&gt;https://bosch.cassmall.cn/login/oauth2/code/bosch&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;response_type=code&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=17;" vertex="1" parent="1">
+          <mxGeometry x="-216" y="-1048" width="373" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-3" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;dashed=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-234.5" width="1524" height="354.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-4" value="Header&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Authorization=Basic bosch-nt:casstime88&lt;br&gt;&lt;br&gt;Param&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;code=&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-code&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;grant_type=authorization_code&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;redirect_uri=https://bosch.cassmall.cn/login/oauth2/code/bosch&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=14;" vertex="1" parent="1">
+          <mxGeometry x="137" y="-190" width="323" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-5" value="" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;dashed=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-596" width="1524" height="353" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-6" value="Header&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Authorization=Basic&amp;nbsp;ca403:IJt8Q&lt;br&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;Body&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;redirect_uri=https://passport.casstime.com/sso/login&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;grant_type=authorization_code&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;&quot;&gt;code=&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;&amp;lt;&amp;lt;third-code&amp;gt;&amp;gt;&lt;br&gt;state=&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=13;" vertex="1" parent="1">
+          <mxGeometry x="943" y="-591" width="283" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-7" value="openid=xxx@bosch.com&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;provider=BoschNT&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;cellphone=&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;verifyCode=" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=12;" vertex="1" parent="1">
+          <mxGeometry x="-76" y="-379" width="171" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-8" value="sso-agent&lt;br&gt;(https://passport.casstime.com)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;size=44;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="376.25" y="-1219" width="392.25" height="1303" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="29.76" y="237" width="313" height="162" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-10" value="1. &lt;font color=&quot;#ff0000&quot;&gt;生成新的state&lt;/font&gt; ②&lt;br&gt;2.认证中心配置映射&amp;nbsp;③" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="127.81000000000002" y="340" width="138.91" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-11" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="191" y="692" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="29.76" y="859" width="335" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-13" value="/sso/binding" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="70.51" y="878" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-14" value="" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="YsyvyBt0T71chl17T3bX-8" source="YsyvyBt0T71chl17T3bX-15" target="YsyvyBt0T71chl17T3bX-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-15" value="存储绑定信息" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="139.52" y="874" width="81.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-16" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="YsyvyBt0T71chl17T3bX-8" source="YsyvyBt0T71chl17T3bX-13" target="YsyvyBt0T71chl17T3bX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-17" value="&lt;font color=&quot;#ff0000&quot;&gt;生成sso_token&lt;br&gt;生成code ④&lt;/font&gt;" style="whiteSpace=wrap;html=1;fontSize=11;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="266.71999999999997" y="874" width="81.25" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="99.02000000000001" y="991" width="196.48" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-19" value="/oauth/token" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="139.76999999999998" y="1010" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-20" value="移除code" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="208.78" y="1006" width="57.72" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-21" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="YsyvyBt0T71chl17T3bX-8" source="YsyvyBt0T71chl17T3bX-19" target="YsyvyBt0T71chl17T3bX-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-22" value="获取用户信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="YsyvyBt0T71chl17T3bX-8" source="YsyvyBt0T71chl17T3bX-11" target="YsyvyBt0T71chl17T3bX-11">
+          <mxGeometry x="-0.0166" y="3" relative="1" as="geometry">
+            <mxPoint x="207" y="800" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="289" y="786" />
+              <mxPoint x="289" y="807" />
+            </Array>
+            <mxPoint x="201" y="817" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-23" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="105.75" y="1186" width="196.48" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-24" value="/sso/userinfo" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="139.52" y="1208.5" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-25" value="移除code" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-8">
+          <mxGeometry x="215.51" y="1201" width="57.72" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-26" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="YsyvyBt0T71chl17T3bX-8" source="YsyvyBt0T71chl17T3bX-24" target="YsyvyBt0T71chl17T3bX-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-27" value="浏览器" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-292" y="-1219" width="115" height="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-28" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="86" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-29" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="237" width="10" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-30" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="531" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-31" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="694" width="10" height="137" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-32" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="867" width="10" height="89" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-33" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="52.5" y="993" width="10" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-34" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-27">
+          <mxGeometry x="51" y="447" width="10" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-35" value="webagent&lt;br style=&quot;font-size: 16px;&quot;&gt;(https://bosch.cassmall.cn)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-13" y="-1219" width="276" height="1327" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-35">
+          <mxGeometry x="133" y="86" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-35">
+          <mxGeometry x="133" y="996" width="10" height="311" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-38" value="认证中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1111" y="-1221" width="115" height="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-39" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-38">
+          <mxGeometry x="52.5" y="439" width="10" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-38">
+          <mxGeometry x="52.5" y="534" width="10" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-41" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;labelBackgroundColor=none;" vertex="1" parent="YsyvyBt0T71chl17T3bX-38">
+          <mxGeometry x="52.5" y="737" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-42" value="https://bosch.cassmall.cn" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-28" target="YsyvyBt0T71chl17T3bX-36">
+          <mxGeometry x="0.0032" width="80" relative="1" as="geometry">
+            <mxPoint x="-232" y="-1119" as="sourcePoint" />
+            <mxPoint x="-152" y="-1119" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-99" y="-1118" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-43" value="302&amp;nbsp;https://passport.casstime.com/sso/oauth/authorize" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-36" target="YsyvyBt0T71chl17T3bX-28">
+          <mxGeometry x="0.0189" y="21" relative="1" as="geometry">
+            <mxPoint x="-48" y="-944" as="sourcePoint" />
+            <mxPoint x="-128" y="-944" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-104" y="-1072" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-44" value="" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-46" target="YsyvyBt0T71chl17T3bX-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-44">
+          <mxGeometry x="-0.05" relative="1" as="geometry">
+            <mxPoint x="-12" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-46" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;hachureGap=4;fontFamily=Comic Sans MS;fontSize=14;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530.01" y="-968" width="87" height="22" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-47" value="是否携带sso_token？①" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=13;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="596.01" y="-970" width="109" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-48" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.05;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-29" target="YsyvyBt0T71chl17T3bX-51">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-220" y="-931" as="sourcePoint" />
+            <mxPoint x="53.5" y="-931" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-49" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;/div&gt;redirect https://passport.casstime.com/sso/oauth/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-48">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="-23" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-50" style="edgeStyle=none;curved=1;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-51" target="YsyvyBt0T71chl17T3bX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-51" value="/oauth/authorize" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="445.76" y="-968" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-52" value="场景：首次认证" style="text;strokeColor=none;fillColor=none;html=1;fontSize=20;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Architects Daughter;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-292" y="-1326" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-53" value="① 如何提取sso_token?&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;方式一：&lt;br&gt;1. 从param中提取access_token;&lt;br&gt;2. 校验access_token; (数据库)&lt;br&gt;3. 生成新的sso_token;&lt;br&gt;&lt;br&gt;方式二：&lt;br&gt;1. 从Cookie中提取sso_token (key);&lt;br&gt;2. 根据key从数据库查询sso_token;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=9;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=14;align=left;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="736" y="-1142" width="234" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-54" value="②&amp;nbsp;示例：&lt;br style=&quot;font-size: 13px;&quot;&gt;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;Redis存储：&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;={&quot;clientId&quot;: &quot;bosch-nt&quot;,&quot;state&quot;: &quot;&amp;lt;&amp;lt;webagent-state&amp;gt;&amp;gt;&quot;,&quot;responseType&quot;: &quot;code&quot;,&quot;redirectUri&quot;: &quot;https://bosch.cassmall.cn/login/oauth2/code/bosch&quot;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=9;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=13;align=left;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="738" y="-944" width="362" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-55" value="③ 配置：&lt;br&gt;&lt;div&gt;authc:&lt;/div&gt;&lt;div&gt;&amp;nbsp; sso:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; clients:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bosch-nt:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; accessTokenValidity: 5M&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; allowedAuthProviders: bosch-nt&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; allowedGrantTypes: authorization_code&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; authProvider: bosch-nt&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientSecret: casstime88&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; defaultAuthProvider: bosch-nt&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; description: 博世NT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; providers:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; bosch-nt:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; accessTokenUri: https://login.microsoftonline.com/0ae51e1/oauth2/v2.0/token&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientId: ca403&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientSecret: IJt8Q&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; providerName: BoschNT&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tenantId: bosch&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; userAuthorizationUri: https://login.microsoftonline.com/0ae51/oauth2/v2.0/authorize&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=13;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=14;align=left;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="436" y="-1586" width="609" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-56" value="登录html页面" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="0.7313" y="20" relative="1" as="geometry">
+            <mxPoint x="1151" y="-722" as="sourcePoint" />
+            <mxPoint x="-226" y="-722" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-116.5" y="-722" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-57" value="用户名/密码" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="-0.8417" y="3" width="80" relative="1" as="geometry">
+            <mxPoint x="-218" y="-664" as="sourcePoint" />
+            <mxPoint x="1159" y="-664" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-58" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-31" target="YsyvyBt0T71chl17T3bX-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-221.5" y="-457" as="sourcePoint" />
+            <mxPoint x="500.25" y="-459" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="-509" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-59" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;redirect https://passport.casstime.com/sso/login?code=&amp;lt;&amp;lt;third-code&amp;gt;&amp;gt;&amp;amp;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-58">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="59" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-60" value="/sso/login" style="shape=providedRequiredInterface;html=1;verticalLabelPosition=bottom;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526" y="-519" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-61" value="&lt;div style=&quot;text-align: left; font-size: 12px;&quot;&gt;一账通手机号绑定 html 页面，openid=xxx@bosch.com,&amp;nbsp;&lt;span style=&quot;background-color: initial; border-color: var(--border-color); text-align: left; font-size: 12px;&quot;&gt;provider=&lt;/span&gt;&lt;span style=&quot;background-color: initial; border-color: var(--border-color); text-align: left; font-size: 12px;&quot;&gt;BoschNT,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial; text-align: left; font-size: 12px;&quot;&gt;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.05;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="0.2442" y="20" relative="1" as="geometry">
+            <mxPoint x="567.75" y="-399.99999999999955" as="sourcePoint" />
+            <mxPoint x="-221.5" y="-399" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="-399" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-62" value="手机号/验证码" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-32" target="YsyvyBt0T71chl17T3bX-13">
+          <mxGeometry x="-0.7009" y="3" width="80" relative="1" as="geometry">
+            <mxPoint x="-215" y="-339" as="sourcePoint" />
+            <mxPoint x="-135" y="-339" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-63" value="302 https://bosch.cassmall.cn/login/oauth2/code/bosch?code=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-code&amp;gt;&amp;gt;&lt;/font&gt;&amp;amp;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-12">
+          <mxGeometry x="0.0435" y="16" relative="1" as="geometry">
+            <mxPoint x="366.7399999999998" y="-285.42" as="sourcePoint" />
+            <mxPoint x="-223" y="-285.42" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-64" value="302 https://passport.casstime.com/sso/login?&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;code=&amp;lt;&amp;lt;third-code&amp;gt;&amp;gt;&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px; text-align: left;&quot;&gt;&amp;amp;state=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="0.6078" y="25" relative="1" as="geometry">
+            <mxPoint x="1152.9999999999995" y="-630.9999999999995" as="sourcePoint" />
+            <mxPoint x="-224" y="-630.9999999999995" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-65" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;align=left;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-37" target="YsyvyBt0T71chl17T3bX-19">
+          <mxGeometry x="0.008" y="12" width="80" relative="1" as="geometry">
+            <mxPoint x="133" y="-185" as="sourcePoint" />
+            <mxPoint x="213" y="-185" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-66" value="https://passport.casstime.com/sso/oauth/token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;fontSize=12;fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-65">
+          <mxGeometry x="-0.3516" y="-1" relative="1" as="geometry">
+            <mxPoint x="29" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-67" value="redirect https://bosch.cassmall.cn/login/oauth2/code/bosch&lt;br&gt;?code=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-code&amp;gt;&amp;gt;&lt;/font&gt;&amp;amp;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;state=&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="YsyvyBt0T71chl17T3bX-37">
+          <mxGeometry x="-1" y="5" width="80" relative="1" as="geometry">
+            <mxPoint x="-222.5" y="-179" as="sourcePoint" />
+            <mxPoint x="96" y="-179" as="targetPoint" />
+            <mxPoint x="-3" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-68" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="585.25" y="-468" as="sourcePoint" />
+            <mxPoint x="1155.4999999999995" y="-468" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="728" y="-468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-69" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;https://login.microsoftonline.com/0ae51e1/oauth2/v2.0/token&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-68">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="6" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-70" value="access_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1168.9999999999995" y="-447.96000000000004" as="sourcePoint" />
+            <mxPoint x="582.25" y="-447.96000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-71" value="client_id=ca403&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;appid=ca403&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;state=&lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-state&amp;gt;&amp;gt;&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;redirect_uri=https://passport.casstime.com/sso/login&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;response_type=code&lt;br&gt;scope=openid+profile+email+offline_access&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=17;" vertex="1" parent="1">
+          <mxGeometry x="-52" y="-858" width="319" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-72" value="登&lt;br&gt;录" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="-1000" width="48" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-73" value="third-code换token" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-378" y="-507" width="216" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-74" value="&lt;span style=&quot;background-color: initial;&quot;&gt;spring:&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;div&gt;&amp;nbsp; security:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; oauth2:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; client:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; provider:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sso:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; authorizationUri: https://passport.casstime.com/sso/oauth/authorize&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tokenUri: https://passport.casstime.com/sso/oauth/token&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; userInfoUri: http://api.intra.casstime.com/passport/userinfo/sso&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; registration:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; bosch:&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; authorizationGrantType: authorization_code&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientAuthenticationMethod: post&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientId:&amp;nbsp;bosch-nt&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientName: Bosch NT OAuth2&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; clientSecret: casstime88&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; provider: sso&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; redirectUri: https://bosch.cassmall.cn/login/oauth2/code/bosch&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=13;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=14;align=left;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-139" y="-1549" width="553" height="313" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-75" value="access_token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-18" target="YsyvyBt0T71chl17T3bX-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="842.75" y="-40.04000000000002" as="sourcePoint" />
+            <mxPoint x="269" y="-40.00000000000006" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="550" y="-62" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-76" value="302 Loaction=/" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
+          <mxGeometry x="0.0015" relative="1" as="geometry">
+            <mxPoint x="115.5" y="75" as="sourcePoint" />
+            <mxPoint x="-218" y="75" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-77" value="302 https://login.microsoftonline.com/0ae51/oauth2/v2.0/authorize" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-10" target="YsyvyBt0T71chl17T3bX-29">
+          <mxGeometry x="0.0015" relative="1" as="geometry">
+            <mxPoint x="163.5" y="-791" as="sourcePoint" />
+            <mxPoint x="-170" y="-791" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-78" value="" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" target="YsyvyBt0T71chl17T3bX-39">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-222.24" y="-757" as="sourcePoint" />
+            <mxPoint x="445.76" y="-757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-79" value="&lt;div style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;/div&gt;redirect https://login.microsoftonline.com/0ae51/oauth2/v2.0/authorize" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Comic Sans MS;labelBackgroundColor=none;" vertex="1" connectable="0" parent="YsyvyBt0T71chl17T3bX-78">
+          <mxGeometry x="-0.3914" y="2" relative="1" as="geometry">
+            <mxPoint x="-59" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-80" value="Set-Cookie: sso_token=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;sso-token&amp;gt;&amp;gt;&lt;/font&gt;;&amp;nbsp;Max-Age=-1;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=12;" vertex="1" parent="1">
+          <mxGeometry x="-48" y="-271" width="300" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-81" value="Set-Cookie: security_context=&amp;lt;&amp;lt;jwt token&amp;gt;&amp;gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=12;" vertex="1" parent="1">
+          <mxGeometry x="-181" y="79" width="266" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-82" value="④&amp;nbsp;补充：&lt;br style=&quot;font-size: 14px;&quot;&gt;1. 生成的code标识本次认证请求；&lt;br&gt;2. 生成code会存储在Redis当中；" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=10;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=14;align=left;horizontal=1;verticalAlign=top;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="765" y="-363" width="240" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-83" value="userId=xxx@bosch.com&lt;br&gt;clientId=bosch-nt&lt;br&gt;accountId=5f19b0df48dcba0001f8e4c7" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=14;" vertex="1" parent="1">
+          <mxGeometry x="223" y="34" width="231" height="53" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-84" value="&amp;lt;&amp;lt;jwt&amp;gt;&amp;gt;&lt;br&gt;upn=&lt;span style=&quot;&quot;&gt;xxx&lt;/span&gt;&lt;span style=&quot;&quot;&gt;@bosch.com&lt;br&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=13;" vertex="1" parent="1">
+          <mxGeometry x="752" y="-446" width="151" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-85" value="红色字体的都&lt;br&gt;是sso生成的" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#FF0000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=8;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="-940" width="92" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-86" value="accessToken=&lt;font color=&quot;#ff0000&quot;&gt;&amp;lt;&amp;lt;access-token&amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;tokenType=Bearer&lt;br&gt;expiresIn=5M&lt;br&gt;principal=xxx@bosch.com" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=14;" vertex="1" parent="1">
+          <mxGeometry x="556" y="-146.5" width="206" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-87" value="sso-code换token" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;labelBackgroundColor=none;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="-378" y="-144" width="216" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-88" value="获取用户信息" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;fontFamily=Courier New;fontSize=12;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-37" target="YsyvyBt0T71chl17T3bX-89">
+          <mxGeometry x="-1" y="14" relative="1" as="geometry">
+            <mxPoint x="134" y="-7" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="167" y="-1" />
+              <mxPoint x="167" y="-1" />
+            </Array>
+            <mxPoint x="134" y="14" as="targetPoint" />
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-89" value="passport&lt;br&gt;/userinfo/sso" style="whiteSpace=wrap;html=1;fontSize=12;fontFamily=Comic Sans MS;strokeWidth=2;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=left;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="282" y="-22" width="81.25" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-90" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-23" target="YsyvyBt0T71chl17T3bX-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="-22" as="sourcePoint" />
+            <mxPoint x="149" y="69" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561" y="69" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-91" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;labelBackgroundColor=none;fontColor=default;fontFamily=Courier New;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YsyvyBt0T71chl17T3bX-89" target="YsyvyBt0T71chl17T3bX-24">
+          <mxGeometry x="-1" y="14" relative="1" as="geometry">
+            <mxPoint x="148" y="9" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="516" y="-1" />
+            </Array>
+            <mxPoint x="284" y="9" as="targetPoint" />
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YsyvyBt0T71chl17T3bX-92" value="调用了icec-token-service&lt;br&gt;代为获取用户信息并生成jwt" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Comic Sans MS;fontSize=12;align=left;labelBackgroundColor=none;size=14;" vertex="1" parent="1">
+          <mxGeometry x="-38" y="-40" width="171" height="42" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -1846,7 +2432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="登出Token失效" id="EfXyKiD6yzzCq0LH1QAE">
-    <mxGraphModel dx="1870" dy="1767" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="1886" dy="1783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="kh3b5i0_Yk_hFWzYDvgC-0" />
         <mxCell id="kh3b5i0_Yk_hFWzYDvgC-1" parent="kh3b5i0_Yk_hFWzYDvgC-0" />
